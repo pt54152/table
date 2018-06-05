@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div id="table"></div>
+	<script src="./js/index.js"></script>
+	<script>
+		var pttable=new PtTable({
+			el:'table',
+			headData:['aa','bb','cc'],
+			tableData:[
+				{aa:'a1',bb:'b1',cc:'c1'},
+				{aa:'a2',bb:'b2',cc:'c2'},
+				{aa:'a3',bb:'b3',cc:'c3'},
+				{aa:'a4',bb:'b4',cc:'c4'},
+			]
+		})
+		pttable.init();
+	</script>
+</body>
+</html>
